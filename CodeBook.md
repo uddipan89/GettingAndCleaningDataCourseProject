@@ -9,14 +9,18 @@
 
 ### Output Data:
   
-  cleanData1.txt : cleanData1.txt is a 10299x68 data frame.
+  cleanData1.txt :
+    
+    cleanData1.txt is a 10299x68 data frame.
 
       * The first column contains subject IDs.
       * The second column contains activity names.
       * The last 66 columns are measurements.
       * Subject IDs are integers between 1 and 30.
       
-  cleanData2.txt : cleanData2.txt is a 180x68 data frame.
+  cleanData2.txt :
+  
+    cleanData2.txt is a 180x68 data frame.
 
       * The first column contains subject IDs.
       * The second column contains activity names.
