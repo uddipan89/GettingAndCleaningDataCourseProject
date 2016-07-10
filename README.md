@@ -28,3 +28,26 @@ You should create one R script called run_analysis.R that does the following.
 * Appropriately labels the data set with descriptive variable names.
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Good luck!
+
+## Data Analysis Explanation
+
+### For 1st tiny data set:
+
+    * Read test and train data sets and combine them
+    * Read test and train subjects and combine them
+    * Read test and train data labels and combine them
+    * Read features list
+    * Subset only only std and mean features from list
+    * Perform same subset on data set
+    * Rename features to be more human readable
+    * Read activity list
+    * Rename activities to be more human readable
+    * Rename data labels with activity name
+    * Merge data, subjects, and labels to single tiny data set
+    * Write tiny data set to file
+
+### For 2nd tiny data set: average of measurement for activity and subject
+
+    * Use the package dplyr
+    * Use piping to group and then summarise data as per the business logic and save it to a data table
+    * Write second tiny data set to file
