@@ -49,5 +49,6 @@ Good luck!
 ### For 2nd tiny data set: average of measurement for activity and subject
 
     * Use the package dplyr
-    * Use piping to group and then summarise data as per the business logic and save it to a data table
+    * Transform the first tidy data set to a table data frame
+    * Use piping to group and then summarise data as per the business logic and save it to a table data frame.
     * Write second tiny data set to file
